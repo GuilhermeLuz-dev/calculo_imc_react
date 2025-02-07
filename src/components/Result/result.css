@@ -1,0 +1,35 @@
+.result {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightColor);
+    font-size: 15px;
+
+
+}
+
+.result h1 {
+    margin-bottom: 20px;
+}
+
+.atencao {
+    background-color: var(--attentionColor);
+}
+
+.ok {
+    background-color: var(--successColor);
+}
+
+.alerta {
+    background-color: var(--alertColor);
+}
+
+.perigo {
+    background-color: var(--dangerColor);
+}

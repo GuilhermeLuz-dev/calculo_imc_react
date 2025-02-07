@@ -1,6 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     display: block;
     width: 100%;
+    height: 100vh;
     max-width: 1024px;
     margin: 0 auto;
+    background-color: #e0dede;
+    padding: 10px 30px;
+}
+
+:root {
+    --primaryColor: #379f7a;
+    --secondColor: #e0dede;
+    --lightColor: #fff;
+    --attentionColor: #3434d1;
+    --successColor: #239923;
+    --alertColor: #b1b116;
+    --dangerColor: #ce2c2c;
 }
