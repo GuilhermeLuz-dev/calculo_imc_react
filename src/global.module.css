@@ -11,7 +11,7 @@
     height: 100vh;
     max-width: 1024px;
     margin: 0 auto;
-    background-color: #e0dede;
+    background-color: var(--secondColor);
     padding: 10px 30px;
 }
 
